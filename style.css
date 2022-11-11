@@ -1,0 +1,96 @@
+ body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .container {
+    justify-content: center;
+    margin-top: 20vh;
+   
+
+ }
+
+ .title {
+    justify-content: center;
+    display: flex;
+    color: rgb(66, 68, 67);
+    font-size: 4rem;
+    height: 5vh;
+    margin-bottom: 15vh;
+
+ }
+
+ #time {
+
+    justify-content: center;
+    display: flex;
+    color: blue;
+    font-size: 5rem;
+    height: 5vh;
+    margin-bottom: 10vh;
+
+
+ }
+
+ .btn {
+    justify-content: center;
+    display: flex;
+
+
+ }
+
+ .btn1 {
+    width: 15vw;
+    height: 6vh;
+    margin: 1em;
+    background-color: greenyellow;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: greenyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ .btn1:hover {
+    background-color: rgb(55, 236, 55);
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+
+ .btn2 {
+   width: 15vw;
+   height: 6vh;
+   margin: 1em;
+    background-color: yellow;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ .btn2:hover {
+    background-color: rgb(214, 214, 27);
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+
+ .btn3 {
+   width: 15vw;
+    height: 6vh;
+   margin: 1em;
+    background-color: rgb(231, 44, 11);
+    font-weight: bolder;
+    border-radius: 5px;
+    border-color: rgb(231, 44, 11);
+    ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+
+ .btn3:hover {
+    background-color: rgb(155, 32, 32);
+    cursor: pointer;
+    transform: scale(1.1);
+
+ }
