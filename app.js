@@ -1,4 +1,4 @@
-ufunction setTime() {
+function setTime() {
     timerDiv.innerText = (parseInt(time/3600) <10?"0":"") +
      parseInt(time/3600)+
       ":"+(parseInt((time/60)%60) <10?"0":"")+parseInt((time/60)%60)+
