@@ -61,6 +61,7 @@
    width: 15vw;
    height: 6vh;
    margin: 1em;
+  padding:auto;
     background-color: yellow;
     font-weight: bolder;
     border-radius: 5px;
