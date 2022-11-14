@@ -1,4 +1,4 @@
-function setTime() {
+ufunction setTime() {
     timerDiv.innerText = (parseInt(time/3600) <10?"0":"") +
      parseInt(time/3600)+
       ":"+(parseInt((time/60)%60) <10?"0":"")+parseInt((time/60)%60)+
@@ -30,7 +30,7 @@ function setTime() {
     if (timerOn) {
     clearInterval(timerId)
     timerOn = false;
-    document.getElementById('pause').innerText = "Continue"
+    document.getElementById('pause').innerText = "Resume"
     }
     else {
     document.getElementById('pause').innerText = "Pause"
