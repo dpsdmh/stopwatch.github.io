@@ -1,11 +1,18 @@
- body {
-    background-color: aqua;
+html{
+   font-size: 100%;
+}
+
+body {
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
- }
+   
+   }
 
  .container {
     justify-content: center;
-    margin-top: 20vh;
+    margin: 6%;
+    padding: 5%;
+    background: rgb(239, 236, 236);
    
 
  }
@@ -13,9 +20,9 @@
  .title {
     justify-content: center;
     display: flex;
-    color: rgb(66, 68, 67);
+    color: rgb(96, 100, 97);
     font-size: 4rem;
-    height: 5vh;
+    height: 2vh;
     margin-bottom: 15vh;
 
  }
@@ -24,25 +31,23 @@
 
     justify-content: center;
     display: flex;
-    color: blue;
+    color:#4285F4;
     font-size: 5rem;
-    height: 5vh;
+    height: 10vh;
     margin-bottom: 10vh;
-
 
  }
 
  .btn {
     justify-content: center;
     display: flex;
-
-
+   
  }
 
  .btn1 {
     width: 15vw;
     height: 6vh;
-    margin: 1em;
+    margin: 1%;
     background-color: greenyellow;
     font-weight: bolder;
     border-radius: 5px;
@@ -52,16 +57,17 @@
  }
 
  .btn1:hover {
-    background-color: rgb(55, 236, 55);
+    background-color:#0F9D58;
     cursor: pointer;
     transform: scale(1.1);
  }
 
  .btn2 {
+   display: block;
    width: 15vw;
    height: 6vh;
-   margin: 1em;
-  padding:auto;
+   margin: 1%;
+   padding: auto;
     background-color: yellow;
     font-weight: bolder;
     border-radius: 5px;
@@ -71,7 +77,7 @@
  }
 
  .btn2:hover {
-    background-color: rgb(214, 214, 27);
+    background-color: #F4B400;
     cursor: pointer;
     transform: scale(1.1);
  }
@@ -79,8 +85,8 @@
  .btn3 {
    width: 15vw;
     height: 6vh;
-   margin: 1em;
-    background-color: rgb(231, 44, 11);
+   margin: 1%;
+    background-color:#DB4437;
     font-weight: bolder;
     border-radius: 5px;
     border-color: rgb(231, 44, 11);
@@ -95,3 +101,172 @@
     transform: scale(1.1);
 
  }
+
+ @media(max-width:700px){
+   html{
+      font-size: 70%;
+   }
+   .container{
+      margin: 30% 2%;
+   }
+   
+   .title {
+      margin-bottom: 10vh;
+  
+   }
+  
+   #time {
+      margin-bottom: 5vh;
+  
+   }
+
+ }
+ @media(max-width:500px){
+   html{
+      font-size: 70%;
+   }
+   
+   .title {
+      
+      margin-bottom: 5vh;
+  
+   }
+  
+   #time {
+      margin-bottom: 3vh;
+  
+   }
+   .btn1 {
+      width: 40vw;
+      height: 6vh;
+      margin: 3%;
+      
+      
+   }
+   .btn2 {
+      width: 40vw;
+      height: 6vh;
+      margin: 3%;
+      
+   }
+   .btn3 {
+      width: 40vw;
+      height: 6vh;
+      margin: 3%;
+      
+   }
+
+
+ }
+ @media(max-width:370px){
+   html{
+      font-size: 55%;
+   }
+   
+   .title {
+      font-size: 350%;
+      margin-bottom: 5vh;
+  
+   }
+  
+   #time {
+      margin-bottom: 3vh;
+  
+   }
+   .btn1 {
+      width: 25vw;
+      height: 6vh;
+      margin: 2%;
+      
+      
+   }
+   .btn2 {
+      width: 25vw;
+      height: 6vh;
+      margin: 2%;
+      
+   }
+   .btn3 {
+      width: 25vw;
+      height: 6vh;
+      margin: 2%;
+      
+   }
+
+ }
+
+ @media(max-width:250px){
+   html{
+      font-size: 40%;
+   }
+   
+   .title {
+      font-size: 400%;
+      
+      margin-bottom: 5vh;
+  
+   }
+  
+   #time {
+      margin-bottom: 1vh;
+  
+   }
+   .btn1 {
+      width: 30vw;
+      height: 6vh;
+      margin: 0% 2%;
+      
+      
+   }
+   .btn2 {
+      width: 30vw;
+      height: 6vh;
+      margin: 0% 2%;
+      
+   }
+   .btn3 {
+      width: 30vw;
+      height: 6vh;
+      margin: 0% 2%;
+      
+   }
+
+ }
+ @media(max-width:220px){
+   html{
+      font-size: 30%;
+   }
+   
+   .title {
+      
+      margin-bottom: 5vh;
+  
+   }
+  
+   #time {
+      margin-bottom: 3vh;
+  
+   }
+   .btn1 {
+      width: 50vh;
+      height: 6vh;
+      margin: 2%;
+      
+      
+   }
+   .btn2 {
+      width: 50vw;
+      height: 6vh;
+      margin: 2%;
+      
+   }
+   .btn3 {
+      width: 50vw;
+      height: 6vh;
+      margin: 2%;
+      
+   }
+
+ }
+
+
